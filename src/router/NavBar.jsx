@@ -26,13 +26,13 @@ const NavBar = () =>
         width="30"
         height="30"
         className="d-inline-block align-top"
-        />  freeNime </Navbar.Brand>
+        />  shallownimeTV </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=leandroGonzalezMat@gmail.com" target="_blank">Contact</Nav.Link>
-            <Nav.Link href="https://www.paypal.com/donate/?hosted_button_id=LDLVEZSUYSDSJ">Donate</Nav.Link>
+            <Nav.Link href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shallownimeTV@gmail.com" target="_blank">Contact</Nav.Link>
+            <Nav.Link href="https://trakteer.id/riza_edtz01/showcase/shallownimetv-SwGr4">Donate</Nav.Link>
           </Nav>
           <Form onSubmit={find} className="d-flex">
             <Form.Control
