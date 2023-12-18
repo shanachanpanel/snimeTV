@@ -33,7 +33,7 @@ const AnimeInfo = () =>
           <Card.Footer>Released in {anime?.releaseDate}</Card.Footer>
         </Card>
         <Card text='light' className='text-center bg-dark mt-2' style={{width:'100%'}} bg='dark'>
-          <Card.Header className='mb-0'>Episodes</Card.Header>
+          <Card.Header className='mb-0'>Episode</Card.Header>
             <Container className='p-4'>
               {cut?.map(ep=>
               <Button key={ep.id} className='m-1 text-center px-3 btnEP' style={{width:'70px'}} onClick={()=>navigate('/watch/'+ep.id)}>{ep.number}
