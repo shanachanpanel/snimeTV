@@ -9,7 +9,7 @@ const Err = () =>
     <>
       {loading && <Loading/>}
       <div className="mt-5 text-center pt-5 text-light">
-        THIS PAGE DOESN'T EXIST
+        MAAF SERVER SEDANG EROR
       </div>
     </>
   )
