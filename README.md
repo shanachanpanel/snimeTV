@@ -1,5 +1,5 @@
 # freeNime
-this project was build using the [consumet-api](https://github.com/consumet/api.consumet.org) 
+this project was build using the [Apikey](https://rizaapi.vercerl.app) 
 
 ### WebSite
 [Check the site](https://freenime.netlify.app/ "freeNime")
@@ -10,4 +10,4 @@ this project was build using the [consumet-api](https://github.com/consumet/api.
 - Add toWatch list
 
 ### Contact
-leandroGonzalezMat@gmail.com
+rizaedtz@gmail.com
