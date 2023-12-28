@@ -7,7 +7,7 @@ import { Container, Row } from "react-bootstrap"
 const Results = () => 
 {
     const {search} = useParams()
-    const prefix = 'anime/rizaapi/'
+    const prefix = 'anime/luckyanime/'
     const results = useFetch(prefix+search)
 
     return (
