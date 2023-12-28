@@ -5,7 +5,7 @@ import { Container, Row } from "react-bootstrap"
 
 const MainPage = () => 
 {
-    const link = 'anime/rizaapi/recent-episodes'
+    const link = 'anime/luckyanime/recent-episodes'
     const results = useFetch(link)
 
     return (
