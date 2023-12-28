@@ -8,7 +8,7 @@ import Context from '../context/Context'
 const AnimeInfo = () => 
 {
   const {id} = useParams()
-  const anime = useFetch('anime/rizaapi/info/'+id)
+  const anime = useFetch('anime/luckyanime/info/'+id)
   const navigate = useNavigate()
   const {endIndex,setEndIndex} = useContext(Context)
   const cut = anime?.episodes.slice(0,endIndex)
