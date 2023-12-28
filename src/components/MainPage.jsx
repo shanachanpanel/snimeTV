@@ -5,14 +5,14 @@ import { Container, Row } from "react-bootstrap"
 
 const MainPage = () => 
 {
-    const link = 'anime/gogoanime/recent-episodes'
+    const link = 'anime/rizaapi/recent-episodes'
     const results = useFetch(link)
 
     return (
         <Container className="p-4">
             <hr className='mx-5 mt-5 hrs'/>
             <Container className="d-flex justify-content-center">
-                <h3 className="mt-2 alerta">recent uploads :D</h3>
+                <h3 className="mt-2 alerta">selamat datang:D</h3>
             </Container>
             <hr className='mx-5 hrs'/>
             {results==undefined && <Loading/>}
