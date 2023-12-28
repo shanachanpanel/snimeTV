@@ -3,7 +3,7 @@ import Context from "./Context"
 
 const Provider = ({children}) => 
 {
-    const baseURL = 'https://rizaapi.vercel.app'
+    const baseURL = 'https://anime-indo-rest-api-psi.vercel.app'
     const [list,setList] = useState()
     const [search,setSearch] = useState()
     const [endIndex,setEndIndex] = useState(30)
