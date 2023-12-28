@@ -15,7 +15,7 @@ export default function useEpisode (epID,prefix)
     const nextEp = Number(findEp)+1
     const next = epID.replace(epID,localStorage.getItem('watching')+'-episode-'+nextEp)
 
-    const anime = useFetch('anime/rizaapi/info/'+localStorage.getItem('watching'))
+    const anime = useFetch('anime/luckyanime/info/'+localStorage.getItem('watching'))
     const episodes = anime?.totalEpisodes
     const download = list?.download
 
